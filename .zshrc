@@ -27,6 +27,7 @@ case ${UID} in
         PROMPT="%{[37m%}${HOST%%.*} ${PROMPT}"
 esac
 
+setopt nolistbeep
 setopt correct
 autoload -U compinit
 compinit
