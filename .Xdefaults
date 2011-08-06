@@ -1,0 +1,11 @@
+urxvt*foreground: snow
+urxvt*background: black
+urxvt*saveLines:  2000
+urxvt*scrollstyle: next
+urxvt*scrollBar: false
+urxvt*shading:  40
+urxvt*cursorBlink:  True
+urxvt*cursorColor:  pink
+urxvt*inheritPixmap: True
+urxvt*preeditType: root
+

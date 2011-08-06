@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/ioriveur/.config/awesome/themes'
+let g:netrw_dirhist_2='/home/ioriveur/.config/awesome'
+let g:netrw_dirhist_3='/home/ioriveur/.config/awesome/themes'
+let g:netrw_dirhist_4='/home/ioriveur/.config/awesome/themes/default'
+let g:netrw_dirhist_5='/home/ioriveur/songs'
+let g:netrw_dirhist_6='/home/ioriveur/.vim'
+let g:netrw_dirhist_7='/home/ioriveur/.vim/ftplugin'
+let g:netrw_dirhist_8='/home/ioriveur/Tsukuba/添付資料'
