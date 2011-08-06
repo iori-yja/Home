@@ -11,20 +11,22 @@ setopt list_packed
 
 case ${UID} in
 0)
-    PROMPT="%B%{[34m%}%/#%{[m%} "
-    RPROMPT="%{[31m%}%T"
-    PROMPT2="%B%{[31m%}%_#%{[m%} "
-    SPROMPT="%B%{[34444m%}%r is correct? [n,y,a,e]:%{[m%}%b "
-    [ -n "${REMOTEHOST}${SSH_CONNECTION}" ] && 
-        PROMPT="%{[37m%}${HOST%%.*} ${PROMPT}"
-   ;;
-*)
-    PROMPT="%/%{[31m%}%%%{[m%} "
-    RPROMPT="%{[34m%}%T%{[m%}"
-    PROMPT2="%{[31m%}%_%%%{[m%} "
+    RPROMPT="%{[1m%}%/%{[m%} "
+    PROMPT="%T%{[1m%}%{[34m%}%%%{[m%} "
+    PROMPT2="%{[5m%}%_%%%{[m%} "
     SPROMPT="%{[31m%}%r is correct? [n,y,a,e]:%{[m%} "
     [ -n "${REMOTEHOST}${SSH_CONNECTION}" ] && 
         PROMPT="%{[37m%}${HOST%%.*} ${PROMPT}"
+    ;;
+
+*)
+    RPROMPT="%{[1m%}%/%{[m%} "
+    PROMPT="%T%{[1m%}%{[34m%}%%%{[m%} "
+    PROMPT2="%{[5m%}%_%%%{[m%} "
+    SPROMPT="%{[31m%}%r is correct? [n,y,a,e]:%{[m%} "
+    [ -n "${REMOTEHOST}${SSH_CONNECTION}" ] && 
+        PROMPT="%{[37m%}${HOST%%.*} ${PROMPT}"
+    ;;
 esac
 
 setopt nolistbeep
