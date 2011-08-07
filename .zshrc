@@ -49,6 +49,9 @@ fi
 
 # some more ls aliases
 alias ll='ls -l'
+alias lla='ls -al'
+alias lat='ls -tal'
+alias lt='ls -tl'
 alias la='ls -A'
 alias l='ls -CF'
 
