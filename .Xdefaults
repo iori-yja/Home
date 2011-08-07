@@ -7,5 +7,5 @@ urxvt*shading:  40
 urxvt*cursorBlink:  True
 urxvt*cursorColor:  pink
 urxvt*inheritPixmap: True
-urxvt*preeditType: root
+urxvt*preeditType: OverTheSpot
 
