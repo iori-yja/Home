@@ -1,6 +1,6 @@
 urxvt*foreground: snow
 urxvt*background: black
-urxvt*saveLines:  2000
+urxvt*saveLines:  20000
 urxvt*scrollstyle: next
 urxvt*scrollBar: false
 urxvt*shading:  60

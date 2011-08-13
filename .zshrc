@@ -34,7 +34,6 @@ setopt correct
 autoload -U compinit
 compinit
 
-PATH=/opt/firefox:$PATH
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
@@ -54,5 +53,5 @@ alias lat='ls -tal'
 alias lt='ls -tl'
 alias la='ls -A'
 alias l='ls -CF'
+PATH=/$EPREFIX/usr/bin:$EPREFIX/bin:$EPREFIX/tmp/usr/bin:$EPREFIX/tmp/bin:/usr/bin:/bin:/opt/firefox:/opt/CodeSourcery/Sourcery_G++_Lite/bin/:$PATH
 
-PATH=/opt/firefox:/opt/CodeSourcery/Sourcery_G++_Lite/bin/:$PATH
