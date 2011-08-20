@@ -9,9 +9,13 @@ else
 	export q=$2
 fi
 
-for x in $(seq $p $q)
+while true
 do
-	notify-send OpenBSD:$x
-	mplayer	song$x.ogg
+	
+	for x in $(seq $p $q)
+	do
+		notify-send OpenBSD:$x
+		mplayer	song$x.ogg
+	done
 done
 
