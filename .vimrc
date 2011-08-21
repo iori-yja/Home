@@ -46,9 +46,10 @@ set visualbell
 " Enable use of the mouse for all modes
 set mouse=a
 set cmdheight=2
- "                         
 
- let g:Tex_BibtexFlavor = 'jbibtex -kanji=euc-jp'
+set autoread
+
+let g:Tex_BibtexFlavor = 'jbibtex -kanji=euc-jp'
 
 "バイナリエディット
 augroup BinaryXXD
