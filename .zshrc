@@ -56,4 +56,4 @@ alias l='ls -CF'
 
 ##Gentoo Prefix Path and ARM compiler
 EPREFIX="$HOME/Gentoo"
-PATH=$EPREFIX/usr/bin:$EPREFIX/bin:$EPREFIX/tmp/usr/bin:$EPREFIX/tmp/bin:/usr/bin:/bin:/opt/firefox:/opt/CodeSourcery/Sourcery_G++_Lite/bin/:$PATH:/opt/extern/opt/Adobe/Reader9/bin/:/opt/extern/opt/altera/10.0/quartus/bin/
+PATH=$EPREFIX/usr/bin:$EPREFIX/bin:$EPREFIX/tmp/usr/bin:$EPREFIX/tmp/bin:/usr/bin:/bin:/opt/firefox:/opt/CodeSourcery/Sourcery_G++_Lite/bin/:$PATH:/opt/extern/opt/Adobe/Reader9/bin/:/opt/extern/opt/altera/10.0/quartus/bin/:/opt/lpc21isp
