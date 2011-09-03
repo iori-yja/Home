@@ -9,5 +9,6 @@ xmodmap -e 'clear Lock'
 xmodmap -e 'add Control = Control_L'
 exec urxvtd&
 xmodmap ~/.Xmodmap
+LANG=C conky -c .conky/conkyrc_orange
 exec awesome
 
