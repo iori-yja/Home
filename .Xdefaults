@@ -9,6 +9,9 @@ urxvt*cursorColor:  pink
 urxvt*inheritPixmap: True
 urxvt*preeditType: OnTheSpot
 urxvt*perl-ext: xim-onthespot
+urxvt*font:\
+-mplus-gothic-medium-r-normal--12-*-*-*-*-60-*,\
+-mplus-gothic-medium-r-normal--12-*-*-*-*-120-
 urxvt*depth: 32
 URxvt.perl-ext-common: default,matcher
 URxvt.urlLauncher: firefox

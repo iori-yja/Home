@@ -1,5 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/ioriveur/tsukuba/.git'
 let g:netrw_dirhist_2='/home/ioriveur/.config/awesome/themes/sky'
 let g:netrw_dirhist_3='/home/ioriveur/tsukuba'
+let g:netrw_dirhist_4='/home/ioriveur/添付資料/doc'
+let g:netrw_dirhist_5='/home/ioriveur/添付資料/latex/自己推薦書/atindex'
+let g:netrw_dirhist_6='/home/ioriveur/添付資料/latex/misc'
+let g:netrw_dirhist_7='/home/ioriveur/.vim/ftplugin'
